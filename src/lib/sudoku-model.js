@@ -391,7 +391,7 @@ export const modelHelpers = {
                         return grid.set('modalState', {
                             modalType: MODAL_TYPE_WELCOME,
                             loadingFailed: true,
-                            errorMessage: error.toString(),
+                            errorMessage: null,
                             showRatings: modalState.showRatings,
                             savedPuzzles: modalState.savedPuzzles,
                             shortenLinks: modalState.shortenLinks,
